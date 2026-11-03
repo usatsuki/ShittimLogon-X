@@ -1,0 +1,240 @@
+THIRD-PARTY NOTICES
+===================
+
+Project origin and succession
+-----------------------------
+
+  Based on Shittim Logon, developed by Nomen. Its final release, Omega, is no
+  longer in active development. 渡来ヒバリ received the source code and permission
+  to continue development and maintenance.
+
+  Shittim Logon X developer, publisher and maintainer: 渡来ヒバリ.
+  Shittim Logon X program modifications Copyright (c) 2026 渡来ヒバリ.
+  Shittim Logon X is free to use; its source code is not publicly available. See LICENSE.txt.
+  The original developer is identified for provenance, not as Shittim Logon X's author or publisher.
+  Third-party notices below remain the notices of their respective components.
+
+Spine C++ Runtime
+-----------------
+
+  Development-tree location: render/vendor/spine-cpp/
+
+  Copyright (c) 2013-2025, Esoteric Software LLC
+  Licensed under the Spine Runtimes License Agreement.
+  Full text in source: render/vendor/spine-cpp/LICENSE
+  Full text in binary packages and installed copies: SPINE-LICENSE.txt
+
+  Upstream:  EsotericSoftware/spine-runtimes
+             branch 4.2
+             commit e7dc1435fa4a0083ab431f1b28e083c14a1f5c68
+             path   spine-cpp/spine-cpp
+             (also recorded in render/vendor/spine-cpp/PROVENANCE.txt)
+
+  The vendored copy is unmodified, comments and copyright headers included.
+
+  The runtime license first permits integration and distribution under
+  Section 2 of the Spine Editor License Agreement:
+  https://esotericsoftware.com/spine-editor-license
+  That route requires the applicable valid Editor license when integrating or
+  modifying a product containing the runtime. A developer's authorization to
+  modify Shittim Logon does not itself grant or transfer a Spine Editor license.
+
+  The runtime license also states an alternative condition under which each
+  product user must obtain their own Spine Editor license. That condition must
+  not be presented as an unconditional requirement for every end user of a
+  product distributed under the Editor agreement's Section 2.
+
+  Redistribution must preserve the full runtime license and copyright notice.
+  The overlay and offscreen renderer link the runtime statically, so a built
+  `overlay.exe` or `render_still.exe` is itself a redistribution of it.
+  This summary does not establish the distributor's licensing eligibility.
+
+  This notice points at the license; it does not replace it and it is not legal
+  advice. Read the full license at the appropriate location above.
+
+
+Fonts
+-----
+
+  Source Han Sans / 源ノ角ゴシック, Medium and Regular, version 2.005 (release 2.005R).
+  Copyright 2014-2025 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+  Source is a trademark of Adobe in the United States and/or other countries.
+  Licensed under the SIL Open Font License, Version 1.1.
+
+  Upstream: https://github.com/adobe-fonts/source-han-sans/releases/tag/2.005R
+  Original files: OTF/Japanese/SourceHanSans-Medium.otf
+                  OTF/Japanese/SourceHanSans-Regular.otf
+  Configuration: language-specific Japanese, full Pan-CJK coverage, static CFF OTF.
+  This is not the region-specific Japanese subset or a variable font.
+  The original font bytes and internal names are unchanged.
+  assets/timedate-ctl.otf: genuine Medium (500) for the clock and date.
+  SHA256: 377372ded6fd6958c971cc69e8ac5ae2f97140a014f14f3dfc2f281cfb3d2a1b
+  assets/subtitle-ctl.otf: genuine Regular (400) for subtitles.
+  SHA256: 6fe3b72967986ccdef600128752d1ade57c13c68129a548cdebe4c7d3c0f8543
+
+  The full upstream copyright and license accompany both copies in
+  assets/timedate-ctl-license.txt and assets/subtitle-ctl-license.txt.
+  The font remains under its own license; Shittim Logon X's software terms do not
+  replace it. Windows system font files are not copied into this package.
+  Each built-in slot prefers OTF to TTF and falls back to the Windows system UI
+  font if its font file is absent or cannot be loaded. Imported fonts remain separate.
+
+
+Rounded clock style
+-------------------
+  Shittim Clock Rounded is a modified static ASCII subset of Google Sans Flex
+  5.000, from https://github.com/googlefonts/googlesans-flex/releases/tag/v5.000.
+  Copyright 2022 The Google Sans Flex Project Authors
+  (https://github.com/googlefonts/googlesans-flex).
+  Licensed under SIL Open Font License 1.1. No Reserved Font Names are declared.
+  The modified family is named Shittim Clock Rounded; no Google or Pixel name is
+  used as this application's product/font name or as an endorsement.
+  Modifications: fixed axes opsz=72, wdth=100, wght=900, ROND=20, slnt=0;
+  ASCII subset; renamed family and static metadata. Genuine heavy outlines are
+  used without synthetic bold. The font remains licensed under OFL, independently
+  of the closed-source application. Original upstream OFL.txt and TRADEMARKS.txt
+  accompany the font in assets/clock-fonts, with PROVENANCE.json. The source-only
+  tools/clock_fonts.py reproduces the reviewed bytes from the pinned release ZIP.
+  The style is inspired by overlapping clocks; it is not an official Pixel preset.
+
+Supplementary subtitle fonts
+-----------------------
+These supplementary fonts are included with every installation. Font files
+keep their upstream filenames and bytes. Each is a genuine Regular (weight 400)
+face; no synthetic bold is applied. Their
+licenses are separate from the application's license.
+
+jf open huninn 2.1 (jf open 粉圓), Japanese subtitle font
+  File: subtitle-fonts/huninn/jf-openhuninn-2.1.ttf
+  Copyright (c) 2010 MOTOYA CO.,LTD. (Kosugi Maru)
+  Copyright (c) 2011-2016 The Varela Round Project Authors, with Reserved Font
+  Names 'Varela' and 'Varela Round'.
+  Copyright (c) 2020-2024 justfont Co., LTD., with Reserved Font Names
+  'open huninn' and 'huninn'.
+  License: SIL Open Font License 1.1; unchanged upstream copyright/license at
+  subtitle-fonts/huninn/LICENSE. That notice also identifies its Hanzi derivation
+  from Apache-2.0-licensed Kosugi Maru.
+  The original Kosugi Maru material identified by huninn upstream is covered
+  by Apache License 2.0. Its full license and ancestry explanation accompany
+  the font at subtitle-fonts/huninn/APACHE-2.0.txt and ANCESTRY-NOTICE.txt.
+  These preserve original-material notices and do not replace huninn's SIL
+  OFL 1.1 or offer the complete font under Apache as an alternative.
+  Upstream: https://github.com/justfont/open-huninn-font
+  Source commit: f240f9071a78298f379bc087cae2010df11cf477
+  SHA256: 9d5bf4932d31fe94c18cd8cfddc98bc1b14ce10f4e354c682179db290a99c825
+
+GenSen Rounded 2.100 TW Regular (源泉圓體), Chinese subtitle font
+  File: subtitle-fonts/gensen/GenSenRounded2TW-R.otf
+  Derived font project: ButTaiwan/gensen-font.
+  Upstream license copyright: Copyright 2014-2019 Adobe, with Reserved Font
+  Name 'Source'. Source is a trademark of Adobe in the United States and/or
+  other countries.
+  License: SIL Open Font License 1.1; unchanged upstream copyright/license at
+  subtitle-fonts/gensen/SIL_Open_Font_License_1.1.txt.
+  Upstream: https://github.com/ButTaiwan/gensen-font
+  Source commit: d347d3fffcb45e08857052433a0b432ed4f7ace8
+  SHA256: 092285878f1d9441c790e5d6a98e806bd508602ad0a8a55511b6fb0a71a25fed
+
+Nanum Gothic Regular 3.020, Korean subtitle font
+  File: subtitle-fonts/nanum/NanumGothic-Regular.ttf
+  Upstream license copyright: Copyright (c) 2010, NHN Corporation, with Reserved
+  Font Names Nanum, Naver Nanum, NanumGothic, Naver NanumGothic, NanumMyeongjo,
+  Naver NanumMyeongjo, NanumBrush, Naver NanumBrush, NanumPen, Naver NanumPen.
+  Embedded font copyright: Copyright 2011 NHN Corporation. Font designed by
+  Sandoll Communications Inc.
+  License: SIL Open Font License 1.1; unchanged upstream copyright/license at
+  subtitle-fonts/nanum/OFL.txt.
+  Official Google Fonts distribution:
+  https://github.com/google/fonts/tree/main/ofl/nanumgothic
+  Source commit: e7db6ca603fd4862010383ff17ffd6cc4ffac1c0
+  SHA256: 76f45ef4a6bcff344c837c95a7dcc26e017e38b5846d5ae0cdcb5b86be2e2d31
+
+The three selected faces cover every character in their respective current
+75-string Japanese, Chinese and Korean subtitle corpora. This does not claim
+universal Unicode or cross-language coverage. Nanum Gothic is the requested
+Korean sans-serif family, not Nanum Gothic Coding or NanumSquareRound.
+
+Complete original font/license provenance is recorded in
+subtitle-fonts/manifest.json. No font was renamed, subsetted or modified.
+
+Micula
+------
+
+  Locations: vendor/micula/ and vendor/micula-legacy/
+  License: MIT; copyright and full license are retained in each LICENSE file.
+  Binary packages carry MICULA-LICENSE.txt and MICULA-LEGACY-LICENSE.txt.
+  Shittim Logon X's local changes add explicit UI text locales to the font formats in
+  both copies, so glyph selection follows the chosen interface language.
+  The current Micula copy also fixes dropdown ownership, input references and
+  widget lifetime during page rebuilding, and makes font-locale replacement
+  preserve the existing formats if creating replacements fails.
+
+Character art, audio and scene assets
+-----------------------------------
+
+  These include material from Blue Archive. This project's software license
+  grants no rights in the game artwork or audio; the original owners retain
+  their rights. Fonts and third-party runtimes retain their own terms.
+
+stb_vorbis
+----------
+
+  Original factory voice recordings are preserved as Ogg Vorbis, without a
+  further lossy conversion. A voice-only decoder avoids dependence on optional
+  Windows Store codecs. It accepts only the exact reviewed factory bytes;
+  legacy MP3 voice packs and all BGM retain their existing decoding paths.
+  This format change does not grant rights in the game recordings.
+
+  Development location: vendor/stb/stb_vorbis.c (unmodified upstream).
+  Copyright (c) 2017 Sean Barrett.
+  License chosen: MIT. The upstream alternative-license text is preserved in
+  vendor/stb/LICENSE and STB-VORBIS-LICENSE.txt in packages/installed copies.
+  Upstream: https://github.com/nothings/stb
+  Commit: 003501f6d7a8668ce8b6d875e34dd97ad0d5d5b5
+  stb_vorbis.c SHA256:
+  4c7cb2ff1f7011e9d67950446b7eb9ca044f2e464d76bfbb0b84dd2e23e65636
+  Additional source provenance: vendor/stb/PROVENANCE.json.
+
+Offline city data and solar scheduling
+-------------------------------------
+
+  City coordinates and identifiers are derived from GeoNames:
+  https://www.geonames.org/ and https://download.geonames.org/export/dump/
+  License: Creative Commons Attribution 4.0 International (CC BY 4.0).
+  https://creativecommons.org/licenses/by/4.0/
+  The selected city subset adds edited four-language display names, search
+  aliases, stable application IDs and Windows time-zone identifiers. GeoNames
+  does not endorse this application. The data remains under its own license;
+  Shittim Logon X's proprietary program restrictions do not override those rights.
+  Full license and attribution: GEONAMES-LICENSE.txt.
+  Source data provenance and selection details are retained with the source.
+
+  Windows time-zone mappings are derived from the Unicode Common Locale Data
+  Repository (CLDR), Copyright Unicode, Inc., under the Unicode License v3.
+  https://cldr.unicode.org/ and https://www.unicode.org/license.txt
+  The mapping is a selected and adapted subset. Its license and attribution
+  are also preserved in GEONAMES-LICENSE.txt.
+
+  Sunrise and sunset are calculated locally from the selected city's coordinates
+  and date. Astronomical method reference:
+  https://gml.noaa.gov/grad/solcalc/calcdetails.html
+  The implementation does not call GeoNames, NOAA, weather or location services.
+  Calculated times are approximate; terrain and atmospheric conditions can
+  change observed sunrise/sunset. No affiliation or certification is implied.
+
+7-Zip installer self-extractor
+-----------------------------
+
+  The distribution wrapper uses the official LZMA SDK 26.05 (2026-10-21)
+  7zSD.sfx module by Igor Pavlov. The LZMA SDK is placed in the public domain.
+  Shittim Logon X changes the wrapper's icon and version resources and adds an
+  explicit asInvoker manifest. Version resources include normalized self-check
+  metadata; this is not a publisher signature.
+  The decompressor code, extraction dialogs and launch behavior are unchanged.
+  The full SDK license is included in 7ZIP-LICENSE.txt.
+  Upstream: https://www.7-zip.org/sdk.html
+  Source archive: https://www.7-zip.org/a/lzma2605.7z
+  Archive SHA256: 668fda469b7f584f246008cf28359c66ef98d65fafb3b22a52672eebe6970c28
+  Development provenance: vendor/7zip-sfx/provenance.json
+  The SDK's license does not change Shittim Logon X's software terms or the
+  separate licenses of other bundled components and media assets.

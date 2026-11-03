@@ -1,0 +1,117 @@
+Shittim Logon X - Terms of Use
+================================
+
+Updated: 2026-10-26
+Shittim Logon X program modifications Copyright (c) 2026 渡来ヒバリ
+Shittim Logon X developer, publisher and maintainer: 渡来ヒバリ
+
+Based on Shittim Logon, developed by Nomen. Its final release, Omega, is no longer
+in active development. 渡来ヒバリ received the source code and permission to
+continue development and maintenance. This describes Shittim Logon X's origin; Nomen is not
+identified as the author, publisher or copyright holder of Shittim Logon X.
+
+1. Scope
+--------
+
+These terms apply to the Shittim Logon X release and its program files.
+Shittim Logon X is free to use. Its source code is not publicly available or included in
+the release. The installer and About page are summaries; these complete terms
+prevail over those summaries.
+
+Shittim Logon X's attribution applies to its modifications and does not claim ownership of
+upstream code, media assets or third-party components. Third-party components
+retain their own licenses and rights; their own terms take priority for the
+corresponding content. See NOTICE.txt and the included component licenses.
+
+2. Permitted use
+----------------
+
+Subject to section 3, you may install and use Shittim Logon X free of charge on any number
+of devices, personally or within an organization, and keep backups for your own
+use. Free use does not grant access to Shittim Logon X's source code or a source-code license.
+
+3. Restrictions
+---------------
+
+Unless separately permitted by the applicable component license or the relevant
+rights holder, you may not:
+
+(a) redistribute the complete release or any part of it;
+(b) sell Shittim Logon X or charge for the software itself;
+(c) distribute it with paid services, technical support or a computer;
+(d) repackage it for distribution, or remove or replace credits, copyright
+    notices or license files;
+(e) reverse engineer, decompile or disassemble its binaries.
+
+These restrictions do not override rights that applicable law requires or
+permissions separately granted by a third-party component's own license.
+
+4. Source code
+--------------
+
+Shittim Logon X's source code is maintained privately by 渡来ヒバリ. It is not a public
+source release. The maintainer's authorization to develop Shittim Logon X from the original
+project does not grant recipients of Shittim Logon X access to its source code or permission
+to redistribute, modify, relicense or sell Shittim Logon X's proprietary program code.
+
+The original project's source license is retained privately as a development
+record. It is not the license for this Shittim Logon X release and is not included in it.
+Any rights independently obtained in the original project or in third-party
+components continue to be governed by their respective licenses.
+
+5. Media assets
+---------------
+
+The release includes character and scene data, derived images and audio from
+Blue Archive. Rights in these assets belong to their respective owners. This
+software license grants no rights to those assets. The project is not affiliated
+with or endorsed by the game's developer, publisher or other rights holders.
+Relevant rights holders may contact the Shittim Logon X maintainer through the distribution
+channel regarding removal of their material.
+
+6. Third-party components
+------------------------
+
+Full notices and license locations are listed in NOTICE.txt:
+
+- Spine C++ Runtime: Copyright (c) Esoteric Software LLC. Its license permits
+  integration and distribution under Section 2 of the Spine Editor License
+  Agreement, or under the alternative condition that each product user obtains
+  their own Spine Editor license. The applicable conditions must be satisfied;
+  these program terms do not grant or transfer a Spine Editor license.
+  Full terms: SPINE-LICENSE.txt and the Editor agreement it references.
+- Micula and Micula legacy: MIT. Their original copyright and license notices
+  remain in MICULA-LICENSE.txt and MICULA-LEGACY-LICENSE.txt.
+- Offline city data: derived from GeoNames under CC BY 4.0. These program
+  restrictions do not limit the separate reuse rights in that data. Attribution,
+  changes and the full license are in GEONAMES-LICENSE.txt and NOTICE.txt.
+
+The bundled Source Han Sans, jf open huninn, GenSen Rounded, Nanum Gothic and
+Shittim Clock Rounded (derived from Google Sans Flex) fonts retain their own
+rights and license terms; they are not licensed by these
+program terms. Their original copyright and license notices accompany the font
+files; see NOTICE.txt for their locations.
+
+Shittim Logon X's closed-source status does not change these components' own license terms.
+
+7. Termination and no warranty
+-----------------------------
+
+Violation of section 3 ends the permissions granted by these terms. You must then
+stop using and remove Shittim Logon X; the independent rights and licenses described in
+sections 5 and 6 remain applicable.
+
+Shittim Logon X is provided as is, without express or implied warranties. It changes system
+settings related to sign-in and registers a scheduled task running as SYSTEM.
+Read README.txt before installation. To the maximum extent permitted by law, the
+developer and maintainer are not liable for loss arising from use or inability to
+use the software.
+
+If the sign-in scene malfunctions, Ctrl + Alt + F11 disables it immediately.
+
+8. Contact
+----------
+
+For Shittim Logon X development, maintenance and distribution matters, contact the channel
+where you obtained this release or the maintainer, 渡来ヒバリ. The original project
+is credited for provenance; Nomen does not provide Shittim Logon X maintenance or support.

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Shittim Logon X brings animated scenes to your Windows sign-in screen. Free to use, with an English interface and subtitles in five languages.">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#f7f8fa">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Shittim Logon X</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="i18n.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+  <div class="page">
+    <header class="site-header">
+      <a class="wordmark" href="./" aria-label="Shittim Logon X">SHITTIM LOGON <span>X</span></a>
+      <label class="language"><span class="sr-only" data-i18n="language">Website language</span><select id="language"><option value="en" selected>English</option><option value="ja">日本語</option><option value="zh-Hans">简体中文</option><option value="zh-Hant">繁體中文</option></select></label>
+    </header>
+    <main id="main">
+      <section class="intro" aria-labelledby="title">
+        <p class="eyebrow">WINDOWS 10 / 11</p>
+        <h1 id="title">Shittim Logon <span>X</span></h1>
+        <p class="description" data-i18n="description">A little animation for your Windows sign-in screen.</p>
+        <p class="languages" data-i18n="languages">English, Japanese and Chinese UI. Subtitles in English, Japanese, Korean, Traditional Chinese and Simplified Chinese.</p>
+        <div id="download" class="download">
+          <a id="download-button" class="download-button" href="#download" aria-disabled="true" tabindex="-1"><span data-i18n="download">Download for Windows</span><span aria-hidden="true">↓</span></a>
+          <p class="release-meta"><span>v<span data-release="version">1.9.8</span></span><span aria-hidden="true">·</span><span data-release="size">76.5 MiB</span><span aria-hidden="true">·</span><span data-i18n="free">Free to use</span></p>
+          <p class="platform">Windows 10 / 11 x64 · Windows 11 ARM64</p>
+          <p id="publication-state" class="publication-state" role="status" data-i18n="pending">Download coming soon.</p>
+        </div>
+      </section>
+      <details class="verify" id="verify">
+        <summary data-i18n="verifyTitle">Check your download</summary>
+        <div class="verify-content">
+          <p data-i18n="verifyIntro">Compare your installer with this release. Your file stays in your browser and is never uploaded.</p>
+          <div class="hash-heading"><span>SHA-256</span><button id="copy-hash" class="text-button" type="button" data-i18n="copy">Copy</button></div>
+          <code id="expected-hash" tabindex="0" data-i18n="loading">Loading…</code>
+          <span id="copy-status" class="status" role="status"></span>
+          <label id="file-drop" class="file-drop"><input type="file" id="verify-file" accept=".exe"><span data-i18n="chooseFile">Choose the installer, or drop it here</span></label>
+          <p id="verify-result" class="verify-result" role="status" aria-live="polite"></p>
+          <details id="digest-details" hidden><summary data-i18n="computedHash">Calculated hash</summary><code id="actual-hash"></code></details>
+          <p class="verify-note" data-i18n="verifyNote">A match confirms that the file is identical to this release. It is not a digital signature or a safety certification.</p>
+        </div>
+      </details>
+    </main>
+    <footer>
+      <p class="credit" data-i18n="credit">By 渡来ヒバリ. Based on Shittim Logon Omega by Nomen.</p>
+      <p class="notice" data-i18n="notice">An unofficial fan project, not affiliated with Blue Archive’s developers or publishers. Game assets belong to their respective rights holders.</p>
+      <nav class="legal" aria-label="Legal"><a href="legal/LICENSE.txt" data-i18n="terms">Terms</a><a href="legal/NOTICE.txt" data-i18n="notices">Third-party notices</a><a href="legal/GEONAMES-LICENSE.txt" data-i18n="dataLicense">Data licenses</a></nav>
+    </footer>
+  </div>
+  <noscript><p class="noscript-note">Enable JavaScript to switch languages, load the download link and check a file. You can also <a href="https://github.com/usatsuki/ShittimLogon-X/releases">visit GitHub Releases</a>.</p></noscript>
+</body>
+</html>

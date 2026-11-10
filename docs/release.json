@@ -1,9 +1,9 @@
 {
-  "version": "2.0.3",
-  "date": "2026.11.09",
-  "file": "ShittimLogon-X-2.0.3.exe",
-  "bytes": 80501757,
-  "sha256": "2534a1cc8779f0e4c6c96f57b48c40c03bbbdf9152b002c1a5a06c423b3ded1c",
-  "downloadUrl": "https://github.com/usatsuki/ShittimLogon-X/releases/download/v2.0.3/ShittimLogon-X-2.0.3.exe",
+  "version": "2.0.5",
+  "date": "2026.11.10",
+  "file": "ShittimLogon-X-2.0.5.exe",
+  "bytes": 80538036,
+  "sha256": "a766a7ca1ca0c3ee7ce8f0a9ebc46e045313ce1f501a20817b32729fc9138174",
+  "downloadUrl": "https://github.com/usatsuki/ShittimLogon-X/releases/download/v2.0.5/ShittimLogon-X-2.0.5.exe",
   "published": true
 }

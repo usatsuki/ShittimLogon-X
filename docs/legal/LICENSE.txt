@@ -1,7 +1,7 @@
 Shittim Logon X - Terms of Use
 ================================
 
-Updated: 2026-10-26
+Updated: 2026-11-12
 Shittim Logon X program modifications Copyright (c) 2026 渡来ヒバリ
 Shittim Logon X developer, publisher and maintainer: 渡来ヒバリ
 
@@ -14,8 +14,8 @@ identified as the author, publisher or copyright holder of Shittim Logon X.
 --------
 
 These terms apply to the Shittim Logon X release and its program files.
-Shittim Logon X is free to use. Its source code is not publicly available or included in
-the release. The installer and About page are summaries; these complete terms
+Shittim Logon X is free to use. Source code may be made available in the future;
+the installer itself contains the binary release. The installer and About page are summaries; these complete terms
 prevail over those summaries.
 
 Shittim Logon X's attribution applies to its modifications and does not claim ownership of
@@ -28,7 +28,7 @@ corresponding content. See NOTICE.txt and the included component licenses.
 
 Subject to section 3, you may install and use Shittim Logon X free of charge on any number
 of devices, personally or within an organization, and keep backups for your own
-use. Free use does not grant access to Shittim Logon X's source code or a source-code license.
+use. Free use does not by itself grant a separate source-code license.
 
 3. Restrictions
 ---------------
@@ -49,10 +49,10 @@ permissions separately granted by a third-party component's own license.
 4. Source code
 --------------
 
-Shittim Logon X's source code is maintained privately by 渡来ヒバリ. It is not a public
-source release. The maintainer's authorization to develop Shittim Logon X from the original
-project does not grant recipients of Shittim Logon X access to its source code or permission
-to redistribute, modify, relicense or sell Shittim Logon X's proprietary program code.
+The source code is currently private and may be made available in the future.
+Public availability would not by itself grant permission to redistribute, modify, relicense or sell
+Shittim Logon X's proprietary program code. Existing component licenses and
+separate permissions from the relevant rights holders continue to apply.
 
 The original project's source license is retained privately as a development
 record. It is not the license for this Shittim Logon X release and is not included in it.
@@ -87,7 +87,7 @@ Full notices and license locations are listed in NOTICE.txt:
   changes and the full license are in GEONAMES-LICENSE.txt and NOTICE.txt.
 
 The bundled Source Han Sans, jf open huninn, GenSen Rounded, Nanum Gothic and
-Shittim Clock Rounded (derived from Google Sans Flex) fonts retain their own
+Google Sans Flex and Shittim Clock Rounded (derived from Google Sans Flex) fonts retain their own
 rights and license terms; they are not licensed by these
 program terms. Their original copyright and license notices accompany the font
 files; see NOTICE.txt for their locations.

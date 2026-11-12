@@ -10,7 +10,7 @@ Project origin and succession
 
   Shittim Logon X developer, publisher and maintainer: 渡来ヒバリ.
   Shittim Logon X program modifications Copyright (c) 2026 渡来ヒバリ.
-  Shittim Logon X is free to use; its source code is not publicly available. See LICENSE.txt.
+  Shittim Logon X is free to use; source code may be made available in the future. See LICENSE.txt.
   The original developer is identified for provenance, not as Shittim Logon X's author or publisher.
   Third-party notices below remain the notices of their respective components.
 
@@ -82,19 +82,24 @@ Fonts
 
 Rounded clock style
 -------------------
-  Shittim Clock Rounded is a modified static ASCII subset of Google Sans Flex
-  5.000, from https://github.com/googlefonts/googlesans-flex/releases/tag/v5.000.
+  Google Sans Flex 5.000 and the modified static Shittim Clock Rounded instance
+  originate from https://github.com/googlefonts/googlesans-flex/releases/tag/v5.000.
   Copyright 2022 The Google Sans Flex Project Authors
   (https://github.com/googlefonts/googlesans-flex).
   Licensed under SIL Open Font License 1.1. No Reserved Font Names are declared.
-  The modified family is named Shittim Clock Rounded; no Google or Pixel name is
-  used as this application's product/font name or as an endorsement.
-  Modifications: fixed axes opsz=72, wdth=100, wght=900, ROND=20, slnt=0;
-  ASCII subset; renamed family and static metadata. Genuine heavy outlines are
-  used without synthetic bold. The font remains licensed under OFL, independently
-  of the closed-source application. Original upstream OFL.txt and TRADEMARKS.txt
-  accompany the font in assets/clock-fonts, with PROVENANCE.json. The source-only
-  tools/clock_fonts.py reproduces the reviewed bytes from the pinned release ZIP.
+  GoogleSansFlex[ROND,opsz,slnt,wdth,wght].ttf retains the original filename,
+  internal names and complete upstream bytes. No character subset is made.
+  ShittimClock-Rounded.ttf is a full-character static derivative, with fixed axes
+  opsz=72, wdth=100, wght=900, ROND=20, slnt=0, a renamed family and static metadata.
+  Only the derivative is named Shittim Clock Rounded. The original font name
+  identifies its provenance; neither Google nor Pixel endorses this application.
+  Genuine outlines are used without synthetic bold or slant. Both fonts remain
+  licensed under OFL independently of the application's terms. Original upstream
+  OFL.txt and TRADEMARKS.txt accompany both fonts in assets/clock-fonts, with
+  PROVENANCE.json. The source-only tools/clock_fonts.py reproduces and checks
+  the reviewed bytes from the pinned release ZIP.
+  Digit overlap and transparent contour clearance are independently adjustable;
+  they alter placement and exclusion geometry, not the font's original outlines.
   The style is inspired by overlapping clocks; it is not an official Pixel preset.
 
 Supplementary subtitle fonts
@@ -208,6 +213,15 @@ Offline city data and solar scheduling
   Shittim Logon X's proprietary program restrictions do not override those rights.
   Full license and attribution: GEONAMES-LICENSE.txt.
   Source data provenance and selection details are retained with the source.
+
+  Supplemental Japanese municipality classification/count checks reference the
+  Geospatial Information Authority of Japan (GSI), 2026-07-01 municipal tables:
+  https://www.gsi.go.jp/KOKUJYOHO/MENCHO/backnumber/GSI-menseki20260701.pdf
+  Korean current municipality names/codes were checked against the Ministry of
+  the Interior and Safety (MOIS): https://jumin.mois.go.kr/
+  These administrative facts supplement selection metadata; representative
+  coordinates continue to use the attributed GeoNames records. No government
+  map artwork is redistributed and no government endorsement is implied.
 
   Windows time-zone mappings are derived from the Unicode Common Locale Data
   Repository (CLDR), Copyright Unicode, Inc., under the Unicode License v3.

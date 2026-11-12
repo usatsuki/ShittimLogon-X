@@ -7,7 +7,7 @@ Animated scenes for your Windows sign-in screen.
 - Windows 10 / 11 (x64) and Windows 11 (ARM64).
 - English, Japanese, Simplified Chinese and Traditional Chinese UI.
 - Subtitles in English, Japanese, Korean, Traditional Chinese and Simplified Chinese.
-- Free to use. The application source code is private.
+- Free to use. Source code may be made available in the future; it is currently private.
 
 By 渡来ヒバリ, based on Shittim Logon Omega by Nomen.
 An unofficial fan project, not affiliated with Blue Archive’s developers or publishers.

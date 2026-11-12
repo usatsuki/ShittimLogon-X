@@ -39,6 +39,7 @@ h1 span { color: var(--accent); }
 .download-button > span:last-child { font-size: 21px; font-weight: 400; line-height: 1; }
 .release-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 9px; margin: 15px 0 0; font-size: 13px; color: var(--muted); }
 .platform { margin: 3px 0 0; font-size: 12px; color: var(--muted); }
+.source-availability { max-width: 570px; margin: 12px 0 0; font-size: 12px; line-height: 1.8; color: var(--muted); }
 .publication-state { margin: 10px 0 0; font-size: 13px; color: var(--muted); }
 .publication-state:empty { display: none; }
 .verify { border-top: 1px solid var(--faint); border-bottom: 1px solid var(--faint); font-size: 13px; }
@@ -61,6 +62,19 @@ code { display: block; overflow-wrap: anywhere; font-family: Consolas, "Courier 
 #digest-details { margin-top: 13px; color: var(--muted); }
 #digest-details code { margin-top: 7px; }
 .verify-note { margin: 18px 0 0; color: var(--muted); font-size: 12px; line-height: 1.7; }
+.sharing-note { margin: 24px 0 0; color: var(--muted); font-size: 12px; line-height: 1.8; }
+.sharing-note h2 { margin: 0 0 5px; color: var(--ink); font-size: 12px; font-weight: 600; }
+.sharing-request { margin: 0; }
+.redistribution-note { margin-top: 10px; }
+.redistribution-note > summary { width: fit-content; text-decoration: underline; text-decoration-color: #c2ccd4; text-underline-offset: 4px; }
+.redistribution-content { padding-top: 3px; }
+.redistribution-content > p { margin: 12px 0 0; }
+.redistribution-content a { text-decoration-color: #c2ccd4; }
+.redistribution-content a:hover { color: var(--accent); }
+.sharing-evidence { margin: 18px 0 0; }
+.evidence-image-link { display: block; width: fit-content; max-width: 100%; }
+.sharing-evidence img { display: block; width: auto; height: auto; max-width: 100%; max-height: 360px; border: 1px solid var(--faint); border-radius: 8px; }
+.sharing-evidence figcaption { margin-top: 9px; font-size: 11px; }
 footer { max-width: 660px; margin: 0 auto; padding: 28px 0 40px; }
 .credit { margin: 0 0 8px; font-size: 12px; color: #46525f; }
 .notice { margin: 0; max-width: 620px; font-size: 11px; color: var(--muted); line-height: 1.8; }

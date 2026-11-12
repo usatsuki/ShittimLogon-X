@@ -39,6 +39,9 @@
     document.querySelectorAll("[data-i18n]").forEach(element => {
       element.textContent = t(element.dataset.i18n);
     });
+    document.querySelectorAll("[data-i18n-alt]").forEach(element => {
+      element.alt = t(element.dataset.i18nAlt);
+    });
     showState();
   }
   selector.addEventListener("change", () => {

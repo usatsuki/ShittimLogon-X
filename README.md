@@ -17,3 +17,5 @@ This repository contains only the website and public notices. GitHub’s automat
 The installer is distributed only as a Release asset.
 
 [Terms](docs/legal/LICENSE.txt) · [Third-party notices](docs/legal/NOTICE.txt) · [Data licenses](docs/legal/GEONAMES-LICENSE.txt)
+
+Please do not post or repost this software's official website or download links on Threads. This is a sharing request. See the website's expandable original-release redistribution note for context.
